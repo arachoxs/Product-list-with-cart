@@ -5,18 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Product list with cart</title>
 
+  <script src="./script.js" defer></script>
+  
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; position: absolute; bottom: 0; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 
-  Desserts
+  <main id="menuCart">
+    <h1>Dessert</h1>
+    <div id="cart">
+      <p>hola</p>
+    </div>
+
+  </main>
+
+  <aside id="cartSelection">
+    <h2>Your cart</h2>
+  </aside>
+
+
+
+<!--
+   Desserts
 
   Waffle with Berries
   Waffle
@@ -63,8 +81,10 @@
   6.50
   Add to Cart
 
-  Your Cart (<!-- Quantity -->)
+  Your Cart 
   Your added items will appear here
+-->
+
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
